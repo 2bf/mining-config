@@ -1,0 +1,12 @@
+My mining settings for mining on HiveOS with NBMiner on Ethereum.
+
+NBminer
+Algorithm: ETHASH
+Wallet and worker template: %WAL%.%WORKER_NAME%
+Pool URL: %URL%
+Pass: x
+
+EXTRA CONFIG ARGUMENTS: "lhr": 70
+  LHR 70 setting unlocks 70% of mining strength for LHR (low hash rate) NVIDIA GPUs.
+  LHR is a restriction on NVIDIA GPUs that make it worse for mining ETH,
+  as a way to prevent miners from buying more cards and increasing marking prices.
